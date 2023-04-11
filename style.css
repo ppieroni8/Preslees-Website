@@ -1,0 +1,37 @@
+/* CSS Comment */
+/* Rules: selector, property, value */
+/* Declaration is property and value */
+
+body {
+    background: red;
+    
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  div {
+    background : #94abd5;
+    width : 320px;
+    padding : 10px;
+    border-radius: 12px;
+  }
+  
+  /* text-align : center; */
+  h1 {
+    text-align : center ;
+  }
+  
+  p {
+    font-size : 1.5em;
+  }
+  
+  img {
+    border: 10px solid #605d5d;
+  }
+  
+  /* Paragraph font-size: 1.5em; */
+  /* Container border-radius: 8px; */
+  /* Put border on image    border: 10px solid white */
+  
