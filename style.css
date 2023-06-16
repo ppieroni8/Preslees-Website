@@ -3,35 +3,45 @@
 /* Declaration is property and value */
 
 body {
-    background: red;
-    
-    height: 100vh;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-  }
+  /* CSS */
+/* Rule */
+/* declaration is a property and value */
+
+body {
+  display: grid;
+  height : 100vh;
+  place-items: center;
+  color: #8a6a48
+}
+
+main {
+  background : tan ;
+  width : 400px ;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+img {
+  border-radius: 50%;
+  width:300px;
   
-  div {
-    background : #94abd5;
-    width : 320px;
-    padding : 10px;
-    border-radius: 12px;
-  }
+}
+div {
+  text-align: center;
+}
+main:hover {
+  background: black; 
+  box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
+transform : scale(1.25); 
+  color: tan;
+}
+
+main {
+  color: lightbrown;
+}
+
+a {
+  color: white;
   
-  /* text-align : center; */
-  h1 {
-    text-align : center ;
-  }
-  
-  p {
-    font-size : 1.5em;
-  }
-  
-  img {
-    border: 10px solid #605d5d;
-  }
-  
-  /* Paragraph font-size: 1.5em; */
-  /* Container border-radius: 8px; */
-  /* Put border on image    border: 10px solid white */
-  
+
+}
