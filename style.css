@@ -2,6 +2,12 @@
 /* Rule */
 /* declaration is a property and value */
 
+
+<head>
+    <link rel="stylesheet" text="text/css" href="style.css">
+</head>
+
+
 body {
   display: grid;
   height : 100vh;
